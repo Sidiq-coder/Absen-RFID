@@ -8,7 +8,7 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);
 MFRC522::MIFARE_Key key;
 
 int blockNum = 2;
-byte blockData[16] = { "aidil" };  // Maks 16 byte data
+byte blockData[16] = { "Sidiq" };  // Maks 16 byte data
 byte readBlockData[18];
 byte bufferLen = 18;
 MFRC522::StatusCode status;
